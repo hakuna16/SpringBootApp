@@ -25,7 +25,7 @@ For building and running the application you need:
 - [Maven 3](https://maven.apache.org)
 
 
-== Installation and Getting Started
+## Installation and Getting Started
 The {docs}/htmlsingle/[reference documentation] includes detailed
 {docs}/htmlsingle/#getting-started-installing-spring-boot[installation instructions]
 as well as a comprehensive {docs}/htmlsingle/#getting-started-first-application[``getting
@@ -35,7 +35,7 @@ formats.
 
 Here is a quick teaser of a complete Spring Boot application in Java:
 
-[source,java,indent=0]
+
 ----
 	import org.springframework.boot.*;
 	import org.springframework.boot.autoconfigure.*;
