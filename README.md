@@ -13,4 +13,13 @@ If you want to check out the source code and test it on your own you need to hav
 $ git clone https://github.com/hakuna16/SpringBootApp.git
 $ cd SpringBootApp
 
+##Folder Structure
 
+<a href="https://ibb.co/fahyZn"><img src="https://preview.ibb.co/cOXbLS/floder_Structure.png" alt="floder_Structure" border="0"></a>
+
+## Requirements
+
+For building and running the application you need:
+
+- [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [Maven 3](https://maven.apache.org)
