@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main;
+package com.rituj.rangeservicevalidation.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

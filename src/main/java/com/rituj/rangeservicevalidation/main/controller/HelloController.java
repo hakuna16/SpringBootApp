@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main.controller;
+package com.rituj.rangeservicevalidation.main.controller;
 
 
 import org.springframework.web.bind.annotation.PathVariable;

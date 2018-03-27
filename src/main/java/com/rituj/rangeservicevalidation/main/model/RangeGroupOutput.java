@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main.model;
+package com.rituj.rangeservicevalidation.main.model;
 
 public class RangeGroupOutput {
 	

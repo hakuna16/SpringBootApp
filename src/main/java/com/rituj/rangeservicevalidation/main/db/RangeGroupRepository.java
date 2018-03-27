@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main.db;
+package com.rituj.rangeservicevalidation.main.db;
 
 import java.util.ArrayList;
 import java.util.List;

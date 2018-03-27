@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main.model;
+package com.rituj.rangeservicevalidation.main.model;
 
 import org.springframework.data.couchbase.core.mapping.Document;
 

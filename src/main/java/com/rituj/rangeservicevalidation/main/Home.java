@@ -1,4 +1,4 @@
-package com.tesco.rangeservicevalidation.main;
+package com.rituj.rangeservicevalidation.main;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
