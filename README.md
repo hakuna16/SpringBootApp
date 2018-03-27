@@ -23,3 +23,36 @@ For building and running the application you need:
 
 - [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Maven 3](https://maven.apache.org)
+
+
+== Installation and Getting Started
+The {docs}/htmlsingle/[reference documentation] includes detailed
+{docs}/htmlsingle/#getting-started-installing-spring-boot[installation instructions]
+as well as a comprehensive {docs}/htmlsingle/#getting-started-first-application[``getting
+started``] guide. Documentation is published in {docs}/htmlsingle/[HTML],
+{docs}/pdf/spring-boot-reference.pdf[PDF] and {docs}/epub/spring-boot-reference.epub[EPUB]
+formats.
+
+Here is a quick teaser of a complete Spring Boot application in Java:
+
+[source,java,indent=0]
+----
+	import org.springframework.boot.*;
+	import org.springframework.boot.autoconfigure.*;
+	import org.springframework.web.bind.annotation.*;
+
+	@RestController
+	@SpringBootApplication
+	public class Example {
+
+		@RequestMapping("/")
+		String home() {
+			return "Hello World!";
+		}
+
+		public static void main(String[] args) throws Exception {
+			SpringApplication.run(Example.class, args);
+		}
+
+	}
+----
